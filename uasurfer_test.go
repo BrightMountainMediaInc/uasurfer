@@ -1069,6 +1069,12 @@ var testUAVars = []struct {
 	{"Mozilla/5.0 (Macintosh; Intel Mac OS X 14_4_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.2478.67",
 		UserAgent{
 			Browser{BrowserIE, Version{124, 0, 2478}}, OS{PlatformMac, OSMacOSX, Version{14, 4, 1}}, DeviceComputer}},
+	{"Mozilla/5.0 (Linux; Android 11; TY55_1 Build/Lambo-ota-1.2.0-5308-3d67dfef85-TY55_1-user-24223; wv) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.6261.112 Safari/537.36 OMI/4.25.0.6.StableAVB_Telly.36",
+		UserAgent{
+			Browser{BrowserChrome, Version{122, 0, 6261}}, OS{PlatformLinux, OSAndroid, Version{11, 0, 0}}, DeviceTV}},
+	{"QPExoPlayer/30.6.26.44 (Linux;Android 11;GeminiAir) ExoPlayerLib/2.18.7",
+		UserAgent{
+			Browser{BrowserUnknown, Version{0, 0, 0}}, OS{PlatformLinux, OSAndroid, Version{11, 0, 0}}, DeviceTV}},
 }
 
 func TestAgentSurfer(t *testing.T) {
