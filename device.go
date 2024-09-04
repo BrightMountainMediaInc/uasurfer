@@ -60,7 +60,7 @@ func (u *UserAgent) evalDevice(ua string) {
 		strings.Contains(ua, "swisscom-ip") ||
 		strings.Contains(ua, "youview") ||
 		strings.Contains(ua, "telly") ||
-		strings.Contains(ua, "geminiair"):
+		strings.Contains(ua, "gemini"):
 		u.DeviceType = DeviceTV
 
 	case u.OS.Name == OSAndroid:

@@ -1075,6 +1075,9 @@ var testUAVars = []struct {
 	{"QPExoPlayer/30.6.26.44 (Linux;Android 11;GeminiAir) ExoPlayerLib/2.18.7",
 		UserAgent{
 			Browser{BrowserUnknown, Version{0, 0, 0}}, OS{PlatformLinux, OSAndroid, Version{11, 0, 0}}, DeviceTV}},
+	{"QPExoPlayer/30.6.30.21 (Linux;Android 11;Gemini) ExoPlayerLib/2.18.7",
+		UserAgent{
+			Browser{BrowserUnknown, Version{0, 0, 0}}, OS{PlatformLinux, OSAndroid, Version{11, 0, 0}}, DeviceTV}},
 }
 
 func TestAgentSurfer(t *testing.T) {
