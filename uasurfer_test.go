@@ -1078,6 +1078,34 @@ var testUAVars = []struct {
 	{"QPExoPlayer/30.6.30.21 (Linux;Android 11;Gemini) ExoPlayerLib/2.18.7",
 		UserAgent{
 			Browser{BrowserUnknown, Version{0, 0, 0}}, OS{PlatformLinux, OSAndroid, Version{11, 0, 0}}, DeviceTV}},
+	{"Dalvik/2.1.0 (Linux; U; Android 10; BRAVIA 4K VH21 Build/QTG3.200305.006.S386)",
+	UserAgent{
+		Browser{BrowserUnknown, Version{0, 0, 0}}, OS{PlatformLinux, OSAndroid, Version{10, 0, 0}}, DeviceTV}},
+	{"Dalvik/2.1.0 (Linux; U; Android 9; STI6110 Build/PI)",
+		UserAgent{
+			Browser{BrowserUnknown, Version{0, 0, 0}}, OS{PlatformLinux, OSAndroid, Version{9, 0, 0}}, DeviceTV}},
+	{"Dalvik/2.1.0 (Linux; U; Android 12; Chromecast Build/STTL.240508.005)",
+		UserAgent{
+			Browser{BrowserUnknown, Version{0, 0, 0}}, OS{PlatformLinux, OSAndroid, Version{12, 0, 0}}, DeviceTV}},
+	{"Dalvik/2.1.0 (Linux; U; Android 12; Chromecast HD Build/STTL.240508.005)",
+		UserAgent{
+			Browser{BrowserUnknown, Version{0, 0, 0}}, OS{PlatformLinux, OSAndroid, Version{12, 0, 0}}, DeviceTV}},
+	{"Dalvik/2.1.0 (Linux; U; Android 11; Stick HD Build/RTT0.211009.001)",
+		UserAgent{
+			Browser{BrowserUnknown, Version{0, 0, 0}}, OS{PlatformLinux, OSAndroid, Version{11, 0, 0}}, DeviceTV}},
+	{"Dalvik/2.1.0 (Linux; U; Android 9; C02_2K_GLB Build/PPR1.180610.011)",
+		UserAgent{
+			Browser{BrowserUnknown, Version{0, 0, 0}}, OS{PlatformLinux, OSAndroid, Version{9, 0, 0}}, DeviceTV}},
+	{"Dalvik/2.1.0 (Linux; U; Android 11; Philips 4K A1 Build/RTXC.231010.094)",
+		UserAgent{
+			Browser{BrowserUnknown, Version{0, 0, 0}}, OS{PlatformLinux, OSAndroid, Version{11, 0, 0}}, DeviceTV}},
+	{"Dalvik/2.1.0 (Linux; U; Android 9; MiProjM05 Build/PQ3B.190705.003)",
+		UserAgent{
+			Browser{BrowserUnknown, Version{0, 0, 0}}, OS{PlatformLinux, OSAndroid, Version{9, 0, 0}}, DeviceTV}},
+	{"Dalvik/2.1.0 (Linux; U; Android 12; Bell Streamer Build/STTC)",
+		UserAgent{
+			Browser{BrowserUnknown, Version{0, 0, 0}}, OS{PlatformLinux, OSAndroid, Version{12, 0, 0}}, DeviceTV}},
+	
 }
 
 func TestAgentSurfer(t *testing.T) {
