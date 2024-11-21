@@ -1104,8 +1104,19 @@ var testUAVars = []struct {
 			Browser{BrowserUnknown, Version{0, 0, 0}}, OS{PlatformLinux, OSAndroid, Version{9, 0, 0}}, DeviceTV}},
 	{"Dalvik/2.1.0 (Linux; U; Android 12; Bell Streamer Build/STTC)",
 		UserAgent{
-			Browser{BrowserUnknown, Version{0, 0, 0}}, OS{PlatformLinux, OSAndroid, Version{12, 0, 0}}, DeviceTV}},
-	
+	Browser{BrowserUnknown, Version{0, 0, 0}}, OS{PlatformLinux, OSAndroid, Version{12, 0, 0}}, DeviceTV}},
+	{"Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.0 Safari/605.1.15 WPE/1.0 Sky_OTT_BCM72174_2020/1.0.0 (Sky, XiOneUS, Wired)",
+	UserAgent{
+		Browser{BrowserUnknown, Version{16, 0, 0}}, OS{PlatformLinux, OSLinux, Version{0, 0, 0}}, DeviceTV}},
+{"Mozilla/5.0 (Linux; x86_64 GNU/Linux) AppleWebKit/601.1 (KHTML, like Gecko) Version/8.0 Safari/601.1 WPE ComcastAppPlatform PN65-751-24U Firebolt/0.8.1",
+	UserAgent{
+		Browser{BrowserUnknown, Version{8, 0, 0}}, OS{PlatformLinux, OSLinux, Version{0, 0, 0}}, DeviceTV}},
+{"Dalvik/2.1.0 (Linux; U; Android 11; Smart TV Build/AR2101)",
+	UserAgent{
+		Browser{BrowserUnknown, Version{0, 0, 0}}, OS{PlatformLinux, OSAndroid, Version{11, 0, 0}}, DeviceTV}},
+{"samsung-agent/1.1",
+	UserAgent{
+		Browser{BrowserUnknown, Version{0, 0, 0}}, OS{PlatformUnknown, OSUnknown, Version{0, 0, 0}}, DeviceTV}},	
 }
 
 func TestAgentSurfer(t *testing.T) {

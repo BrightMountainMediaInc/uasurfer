@@ -68,6 +68,10 @@ func (u *UserAgent) evalDevice(ua string) {
 		strings.Contains(ua, "c02_2k") ||
 		strings.Contains(ua, "philips 4k") ||
 		strings.Contains(ua, "miproj") ||
+		strings.Contains(ua, "sky_ott") ||
+		strings.Contains(ua, "firebolt") ||
+		strings.Contains(ua, "samsung-agent") ||
+		strings.Contains(ua, "ar2101") ||
 		strings.Contains(ua, "bell streamer"):
 		u.DeviceType = DeviceTV
 
